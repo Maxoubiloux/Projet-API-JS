@@ -1,0 +1,92 @@
+/*Ombre et centrage*/
+
+.shadow {
+    box-shadow: 0px 2px 2px;
+    padding-bottom: 1em;
+}
+
+/*Titres*/
+
+.titre, h2 {
+    border: 0px solid;
+    background-color: #024959;
+    color: #F2AE2E;
+    text-align: center;
+    margin: 0.5em 0 0.2em;
+    padding: 0.4em;
+}
+
+.margetitre {
+    margin-bottom: 0.4em;
+    margin-top: 0.5em;
+}
+
+/*Bouton afficher et dropdown*/
+
+select {
+    cursor: pointer;
+    outline: none;
+}
+
+.btn {
+    color: #F2AE2E !important;
+    background-color: #024959!important;
+    border-radius: 10px !important;
+    padding: 0.5em !important;
+}
+
+.btn:active {
+    outline: none !important;
+    border: none !important;
+}
+
+.btn:hover {
+    color: #FFF !important;
+    text-decoration: none !important;
+    background-color: #01404d !important;
+    border: 1px solid black !important;
+}
+
+/*Cartes*/
+
+.card {
+    background-color: #024959 !important;
+    color: #FFF;
+    font-weight: 500;
+}
+
+/*Footer et hover pour réseaux sociaux*/
+
+footer {
+    border-top: 1px solid;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+.item-social {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.item-social > a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+    margin: 0 8px 10px;
+    color: #fff;
+    opacity: 0.7;
+}
+  
+.item-social > a:hover {
+    opacity: 0.9;
+}
+
+.github, .linkedin, .twitter, .facebook {
+    height: 36px;
+    width: 36px;
+}
